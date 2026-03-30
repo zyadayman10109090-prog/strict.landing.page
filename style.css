@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    background: url(./image/—Pngtree—asian\ programmer\ focusing\ on\ his_15515031.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.nav{
+    background-color: rgb(44, 24, 102);
+    padding: 40px 10px;
+
+}
+.logo{
+    float: left;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    
+}
+.main-nav{
+    float: right;  
+}
+.main-nav ul li{
+    display: inline;
+    padding: 5px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    transition: all 1s;
+}
+.main-nav ul li a:hover{
+    color:rgb(109, 44, 214);
+}
+.hero{
+    text-align: center;
+    margin-top: 400px;
+    color: white;
+    
+}
+.hero h1{
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    
+}
+.hero hr{
+    width: 50%;
+    border: solid 3px #61c2f7;
+    margin: 20px auto;
+    border-radius: 5px; 
+}
+.hero p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin:25px 25% ;
+    color: #fff;
+    line-height: 1.5;
+}
+.hero a{
+    border: solid 4px rgb(134, 83, 218);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 30px ;
+    background-color: rgb(144, 81, 173);
+    letter-spacing: 2px;
+    transition: all 1s;
+    display: inline-block;
+}
+.hero a:hover{
+    background-color: #7b13f1;
+    transform: scale(1.1);
+}
+.design{
+    text-align: center;
+    padding: 30px 0;
+    background-color: #eee;
+}
+.design h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding: 15px ;
+}
+.design p{
+    font-size: 35px;
+    color: #828282;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.icons{
+    padding: 70px;
+}
+.row{
+    width: 90%;
+    margin: auto;
+}
+.icon{
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+    text-align: center;
+}
+.icon h3{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.icon p{
+    font-size: 19px;
+    color: #828282;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon i{
+    background-color: #61c2f7;
+    padding: 22px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    padding: 22px;
+    color: white;
+    width: 80px;
+    border-radius: 10px;
+}
+.Gallery{
+    padding: 70px;
+}
+.info{
+    text-align: center;
+
+}
+.info h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+.info p{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#828282;
+    margin-bottom: 30px;
+}
+.x-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.x-row .item{
+    width: 30%;
+    margin: 1%;
+    position: relative;
+}
+.x-row .item img{
+width: 100%;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(28, 154, 238, .4);
+    text-align: center;
+    display: none;
+}
+.overlay i{
+color: white;
+font-size: 50px;
+margin-top: 150px;
+margin-left: 20px;
+}
+.item:hover .overlay{
+display: block;
+}
+.contact{
+    background-image: url(./image/pexels-cmonphotography-1809644.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 50px 0;
+    position: relative;
+}
+.contact-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(55, 73, 105, 0.329);
+}
+.contact-info{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact-info h2{
+    text-transform: capitalize;
+    font-size:30px;
+}
+.contact-form{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+.contact-info p{
+    color: #903dd3;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.contact-form{
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+.contact-form input[type=text],input[type=email], textarea {
+    width: 600px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: transparent;
+    display: block;
+    border-radius: 10px;
+}
+span{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 17px;
+    margin-left: 40px;
+    float: left;
+}
+input[type=checkbox]{
+    margin-right: 20px;
+}
+input[type=submit]{
+    background: transparent;
+    padding: 10px 30px;
+    color: white;
+    font-size: 16px;
+    border: solid 1px #61c2f7;
+    border-radius: 10px;
+    transition: all 1s;
+}
+input[type=submit]:hover{
+    background-color: #61c2f7;
+    transform: scale(1.2);
+}
+.footer{
+    padding: 25px;
+    background-color: #eee;
+    text-align: right;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 36px;
+    margin: 5px;
+    color: #61c2f7;
+}
+
+
